@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alarm_background"
+    tools:context="com.example.haiminhtran.alarm.AlarmActivity"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+
+    android:text="00:00"
+    android:textColor="@color/transparent"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:textSize="100dp"
+    android:gravity="center"
+    android:id="@+id/text_time_display"
+    />
+
+    <TextView
+        android:id="@+id/btn_sleep"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/circle"
+        android:text="@string/sleep_again"
+        android:textColor="@color/transparent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+    <TextView
+        android:id="@+id/btn_cancel_alarm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/transparent"
+        android:text="@string/turn_off"/>
+
+</LinearLayout>

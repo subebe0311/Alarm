@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    >
+    <TextView
+        android:id="@+id/text_order"
+        android:textSize="20sp"
+        android:text="1434"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="00:13.9"
+        android:gravity="center"
+        android:id="@+id/text_clocking_display"
+        />
+
+    <TextView
+        android:textSize="10sp"
+        android:background="@drawable/rectangle"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:id="@+id/text_compare"
+        android:text="+00.02"
+        android:gravity="center"
+        />
+
+</LinearLayout>

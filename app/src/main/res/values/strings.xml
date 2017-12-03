@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyAlarm</string>
+    <string name="alarm">BÁO THỨC</string>
+    <string name="clocking">BẤM GIỜ</string>
+    <string name="counting_time">ĐẾM NGƯỢC</string>
+    <string name="timer">HẸN GIỜ</string>
+
+    <string name="cancel">Hủy</string>
+    <string name="add">Thêm</string>
+    <string name="add_alarm">Thêm Báo Thức</string>
+    <string name="again">Lặp lại</string>
+    <string name="music">Nhạc chuông</string>
+
+    <string name="once">Một lần</string>
+    <string name="everyday">Hàng Ngày</string>
+    <string name="daypick">Chọn ngày</string>
+
+
+    <string name="pickday">Chọn ngày</string>
+    <array name="day">
+        <item>Chủ nhật</item>
+        <item>Thứ hai</item>
+        <item>Thứ ba</item>
+        <item>Thứ tư</item>
+        <item>Thứ năm</item>
+        <item>Thứ sáu</item>
+        <item>Thứ bảy</item>
+
+    </array>
+
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="accept">OK</string>
+
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="sleep_again">Ngủ thêm tí nữa</string>
+    <string name="turn_off">Tắt luôn</string>
+
+
+</resources>

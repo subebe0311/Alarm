@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="00:00:00"
+        android:background="@color/counter_background"
+        android:gravity="center"
+        android:textColor="@color/transparent"
+        android:textSize="50dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/text_counter_display"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/counter_list_view"
+        />
+    <Button
+        android:id="@+id/btn_start_counter"
+        android:text="Bắt đầu"
+        android:background="@drawable/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

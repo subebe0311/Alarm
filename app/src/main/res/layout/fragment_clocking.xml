@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="0:0.0"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="@color/transparent"
+        android:background="@color/clocking_background"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/text_clocking"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/clocking_list_view"
+        />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_start_clocking"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bấm giờ"/>
+        <Button
+            android:layout_alignParentRight="true"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Inverse"
+            android:id="@+id/btn_pause_clocking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tạm dừng"/>
+    </RelativeLayout>
+
+</LinearLayout>
